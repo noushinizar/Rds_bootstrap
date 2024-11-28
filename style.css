@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main-container{
+    /* width: 100%; */
+    height: 1548px;
+    /* background-color:aquamarine; */
+    font-family: 
+    Montserrat (ttf)
+    sans-serif;
+}
+.nav{
+    align-items: center;
+}
+.navbar-scrolled {
+    background-color: rgb(26,29,35) !important;
+    transition: background-color 0.3s;
+}
+.page1{
+    /* width: 100%; */
+    height: 800px;
+    background-image: url(assets/main-bg-img.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.navbar-brand img {
+    height: 43px;
+}
+.btn-schedule {
+    background: linear-gradient(45deg, #f72585, #7209b7);
+    color: white;
+    padding: 10px 20px;
+}
+.btn-schedule:hover {
+    background: linear-gradient(45deg, #7209b7, #f72585);
+    color: white;
+}
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: 600;
+}
+.navbar-nav .nav-link:hover {
+    color: #f72585;
+}
+.navbar-icons i {
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.navbar-icons i:hover {
+    color: #f72585;
+}
+.img-fluid{
+    width: 21%;
+}
+.msg-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    position: fixed;
+    left: 1420px;
+}
+.content{
+    height: 86.6%;
+    display: flex;
+}
+.cards{
+    margin-top: 5px;
+}
+.card1{
+    width: 220px;
+    height: 200px;
+    background-image: url(assets/dance-card-1.png);
+}
+.card2{
+    width: 220px;
+    height: 200px;
+    background-image: url(assets/dance-card-2.png);
+}
+.card3{
+    width: 220px;
+    height: 200px;
+    background-image: url(assets/dance-card-3.png);
+}
+.card4{
+    width: 220px;
+    height: 200px;
+    background-image: url(assets/dance-card-4.png);
+}
+.card5{
+    width: 220px;
+    height: 200px;
+    background-image: url(assets/dance-card-5.png);
+}
+.innerimg1{
+    width: 124px;
+}
+.innerimg2{
+    width: 128px;
+}
+.innerimg5{
+    width: 128;
+}
+.location{
+    width: 100%;
+    height: 360px;
+}
+footer{
+    height: 391px;
+    background-color: rgb(31,34,41);
+    color:#6b7280;
+}
+.footerItems1{
+    width: 55%;
+    font-size: 16px;
+    font-weight: 600px;
+    margin-top: 40px;
+}
+.iconsdiv{
+    width: 20%;
+    opacity: 0.2;
+    margin-top: 40px;
+}
+.iconsdiv:hover{
+    opacity: 1;
+}
+.menu{
+    color: rgb(107,114,128);
+}
+.menus{
+    color: rgb(255,255,255);
+}
